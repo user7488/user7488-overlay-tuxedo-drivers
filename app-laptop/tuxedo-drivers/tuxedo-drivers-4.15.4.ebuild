@@ -15,8 +15,6 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-PATCHES=( "${FILESDIR}/patch_for_newer.diff" )
-
 pkg_setup() {
     local CONFIG_CHECK="
         ACPI_WMI
